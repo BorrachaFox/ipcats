@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css'
 import { ThemeProvider } from 'styled-components';
 import { Reset } from 'styled-reset';
 

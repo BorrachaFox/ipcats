@@ -1,10 +1,11 @@
 const theme = {
     color: {
-        background: '#D4D2D2',
+        background: '#FFF',
         text: '#000000',
     },
     fonts: {
-        regular: 'Roboto, sans-serif',
+        regular: 'Roboto Slab, sans-serif',
+        mono: 'Roboto Mono, monospace',
     },
 };
 
