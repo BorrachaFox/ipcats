@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: ipcats-test.vercel.app
-Token: 9bbe1f036767ec2ca3a5a9bbe964024781c6ecdbeb67d7a700863aaf7d95c826

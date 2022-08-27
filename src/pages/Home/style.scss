@@ -1,0 +1,152 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  //background-color: ${(props) => props.theme.color.background};
+  //font-family: ${(props) => props.theme.fonts.mono};
+  max-width: 1480px; 
+  padding: 0 5%; 
+  margin: 0 auto;
+
+  //animation: fade 1s;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1440px; 
+  padding: 24px;
+  margin: 0 auto 26px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right:  auto;
+}
+
+.ip {
+  //font-family: ${(props) => props.theme.fonts.mono};
+  font-size: 22px;
+}
+
+// { HIGHLIGHT }
+
+.mainSection {
+  //font-family: ${(props) => props.theme.fonts.mono};
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1440px;
+  width: 100%;
+  padding: 24px;
+  margin: 0 auto; 
+
+  img {
+      width: 50%;
+  }
+}
+
+.mainText {
+  margin-right: 80px;
+}
+
+.title {
+  font-size: 48px; 
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 24px;
+}
+
+.description {
+  //font-family: ${(props) => props.theme.fonts.regular};
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+// { INPUT }
+.ipSearch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin: 40px auto 0;
+
+  width: 100%;
+  max-width: 740px;
+
+  div {
+    display: flex;
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 20px;
+  }
+
+  input {
+    //font-family: ${(props) => props.theme.fonts.mono};
+    width: 100%;
+    height: 45px;
+    padding: 10px 20px;
+
+    font-size: 18px;
+    border: 3px solid rgba(20, 20, 20, 0.6);
+    border-radius: 5px;
+  }
+  
+  button {
+    //font-family: ${(props) => props.theme.fonts.regular};
+    width: 140px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    
+    background-color: #3F3D56; //#1B9105
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+
+    transition: .2s;
+    
+    :hover {
+      background-color: #56546b;
+    }
+  }
+}
+
+//{ Map View }
+.map {
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+  img {
+      width: 100%;
+  }
+
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+// { Footer }
+
+.footer {
+  height: 50px;
+}
+
+// Animations
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} 
+
