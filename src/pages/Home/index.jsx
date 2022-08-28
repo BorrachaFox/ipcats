@@ -67,7 +67,8 @@ const Home = () => {
       </div>
       <SearchResult locationData={location}/>
       <div className="map">
-        <img src={MapImage} alt="Location map" width="" />
+        <iframe src={`//maps.google.com/maps?q=${location.latitude},${location.longitude}&z=12&output=embed`}>
+        </iframe>
       </div>
       <div className="footer"/>
     </div>
