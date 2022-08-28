@@ -44,21 +44,21 @@ const Home = () => {
       </div>
       <div className="mainSection">
         <div className="mainText">
-          <div className="title">SITE PARA BUSCAR IP</div>
+          <div className="title">De onde vem este IP?</div>
           <div className="description">
-            Criado com o intuito de buscar por IP de maquinas e dominios de sites
+          📌 Forneça o IP desejado e descubra sua região e localização.
           </div>
         </div>                
         <img src={SvgWorld} alt="Connected world"/>
       </div>
       <div className="ipSearch">
-        <h2>DIGITE O IP/DOMINIO DESEJADO:</h2>
+        <h2>DIGITE O IP DESEJADO:</h2>
         <form onSubmit={handleSubmit}>
           <input 
             type="text" 
             id="SearchIp" 
             name="SearchIp" 
-            placeholder="IP/DOMAIN"
+            placeholder="Digite IP 8.8.8.8"
             onChange={event => setInputValue(event.target.value)} 
             value={inputValue}
           />

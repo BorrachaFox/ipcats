@@ -1,6 +1,6 @@
 .content {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 4fr 3fr 2fr 3fr;
   width: 100%; 
 
   margin: 40px auto;
@@ -28,5 +28,20 @@
     font-weight: 500;
     font-size: 24px;
     margin-top: 6px;
+  }
+}
+
+@media (max-width: 700px) {
+  .content {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%; 
+  
+    margin: 40px auto;
+    border-left: none;
+  }
+
+  .item {
+    border-right: none;
   }
 }
